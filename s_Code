@@ -1,0 +1,27 @@
+package com.kiani.samples;
+
+public class For_Loop {
+
+        public static void main(String[] args) {
+                        
+                //بخش اول تمرین لوپ : نمایش دادن اعداد کوچکتر از هزار بخش‌پذیر بر عدد دوازده
+                for (int dex = 0; dex < 1000; dex++) {
+                        if (dex % 12 == 0) {
+                        System.out.println("#: " + dex);
+
+                        }
+                        }
+
+                //قرار دادن یک خط فاصله بین دو دستور لوپ برای نمایش جداگانه نتیجه دو بخش
+                System.out.println("\r");
+
+                //بخش دوم تمرین لوپ : نمایش دادن حاصلضرب عدد نه در اعداد  کوچکتر از دویست        
+                for (int dex = 1; dex <= 200; dex++) {
+                        int multiple = 9 * dex;
+                        System.out.print(multiple + " ");
+                        }
+                        
+                        }
+                        }
+                        
+           
